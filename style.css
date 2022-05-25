@@ -1,0 +1,29 @@
+body {
+	text-align: center;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Macondo', cursive;
+	font-size: 3em;
+	border-bottom: 1px solid lightgreen;
+	padding: 10px;
+	margin: 10px;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+img {
+	width: 300px;
+	height: 300px;
+	margin: 10px;
+	transition: all .5s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
